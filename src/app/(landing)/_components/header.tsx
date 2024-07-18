@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { RocketIcon } from "@/components/icons";
-import { APP_TITLE } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -48,7 +46,6 @@ export const Header = () => {
           href="/"
         >
         </Link>
-     
         <div className="ml-auto">
           <Button asChild variant={"secondary"}>
             <Link href="/login">Login</Link>
