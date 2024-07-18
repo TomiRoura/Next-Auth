@@ -1,6 +1,8 @@
+![Preview](demo.gif)
+
 ## Lucia vs. NextAuth.js
 
-Lucia is less opinionated than NextAuth, offering greater flexibility for customization. While Lucia involves more setup, it provides a higher degree of flexibility, making it a suitable choice for projects requiring unique authentication configurations.
+First time testing Lucia and Drizzle. While Lucia involves more setup, it provides a higher customizable than NextAuth, making it a better choice for projects requiring unique authentication configurations.
 
 ## Tech Stack
 
@@ -20,8 +22,6 @@ Lucia is less opinionated than NextAuth, offering greater flexibility for custom
 1. Clone this repository to your local machine.
 2. Copy `.env.example` to `.env` and fill in the required environment variables.
 3. Run `npm install` to install dependencies.
-4. `(for node v18 or lower):` Uncomment polyfills for `webCrypto` in `src/lib/auth/index.ts`
-5. Update app title, database prefix, and other parameters in the `src/lib/constants.ts` file.
-6. Run `npm db:push` to push your schema to the database.
-7. Execute `npm dev` to start the development server and enjoy!
+4. Run `npm db:push` to push your schema to the database.
+5. Execute `npm run dev` to start the development server.
 
