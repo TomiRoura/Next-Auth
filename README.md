@@ -2,7 +2,7 @@
 
 ## Lucia vs. NextAuth.js
 
-First time testing Lucia and Drizzle. While Lucia involves more setup, it provides a higher customizable than NextAuth, making it a better choice for projects requiring unique authentication configurations.
+First time testing Lucia, Drizzle, and Stripe. While Lucia involves more setup, it provides a higher customizable than NextAuth.
 
 ## Tech Stack
 
